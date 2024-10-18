@@ -1,1 +1,40 @@
-
+{
+  "VehicleVersion":"1.0.0",
+  "ModelCode":"",
+  "ECUs":[
+    "{
+     "ECUName":"DAS",
+     "VehicleStep":"step2.5",
+      "Version":"1.0.0"
+      "SofwareInventory":[
+        "Software":{
+            "DID":"f188",
+            "Version":"1.0.0",
+            "LastVersion":"0.0.2",
+        },
+        "Calibration":{
+            "DID":"f19C",
+            "Version":"1.0.0",
+            "LastVersion":"0.0.2",
+        },
+        "Configuration":{
+            "DID":"f012",
+            "Version":"1.0.0",
+            "LastVersion":"0.0.2",
+        }
+      ],
+      "HardwareInventory":[
+        "Harware":{
+            "DID":"f191",
+            "Version":"1.0.0",
+            "LastVersion":"0.0.2",
+        },
+        "SerialNumber":{
+            "DID":"f18C",
+            "Version":"1.0.0",
+            "LastVersion":"0.0.2",
+        },
+      ]
+    }
+  ]
+}
