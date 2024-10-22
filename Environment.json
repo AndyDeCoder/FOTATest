@@ -1,9 +1,9 @@
 {
-   "ECU-01": {
+   "ECU-01":{
      "OS": "Real-Time OS",
      "architecture": "ARM Cortex-M4"
    },
-  "ECU-02": {
+  "ECU-02":{
     "OS": "Embedded Linux",
     "architecture": "ARM Cortex-A5"
   }
