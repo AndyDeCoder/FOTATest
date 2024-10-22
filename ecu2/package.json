@@ -1,1 +1,8 @@
-
+{
+  "name": "ecu2",
+  "version": "1.0.0",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "moment": "^2.29.1"
+  }
+}
