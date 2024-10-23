@@ -1,9 +1,10 @@
 {
-  "name": "ecu3",
+  "name": "AVM",
   "version": "1.0.0",
   "dependencies": {
   "ecu": [
     "DAS",
-    "CDC"]
+    "CDC"
+  ]
   }
 }
