@@ -2,6 +2,6 @@
   "name": "ecu3",
   "version": "1.0.0",
   "dependencies": {
-  "ecu2":"file:../ecu2"
+    "axios": "^0.21.1"
   }
 }
