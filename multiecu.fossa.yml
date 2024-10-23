@@ -1,5 +1,4 @@
 version: 1
-source:
   path:
     - ecu1
     - ecu2
