@@ -4,7 +4,7 @@
   "dependencies": {
   "ecu": [
     "DAS":"file:../DAS",
-    "CDC"
+    "CDC":"file:..CDC"
   ]
   }
 }
