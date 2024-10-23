@@ -2,6 +2,7 @@
   "name": "AVM",
   "version": "1.0.0",
   "dependencies": {
+    "axios": "^0.21.1",
     "DAS":"file:../DAS",
     "CDC":"file:../CDC"
   }
