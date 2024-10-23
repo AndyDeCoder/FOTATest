@@ -6,6 +6,6 @@
     "ecu2": "file:../ecu2"
   },
   "resolutions": {
-    "ecu2": "0.0.0"  // Effectively ignoring it
+    "ecu2": "0.0.0"
   }
 }
