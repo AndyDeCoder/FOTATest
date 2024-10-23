@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "dependencies": {
   "ecu": [
-    "AVM",
-    "CDC"
+    "AVM":"file:../AVM",
+    "CDC":"file:../CDC"
   ]
   }
 }
