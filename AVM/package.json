@@ -3,6 +3,6 @@
   "version": "1.0.0",
   "dependencies": {
     "DAS":"file:../DAS",
-    "CDC":"file:..CDC"
+    "CDC":"file:../CDC"
   }
 }
