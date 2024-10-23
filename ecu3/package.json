@@ -2,6 +2,6 @@
   "name": "ecu3",
   "version": "1.0.0",
   "dependencies": {
-  "ecu": ["ecu1","ecu2"]
+  "ecu2":"file:../ecu2"
   }
 }
