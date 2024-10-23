@@ -1,1 +1,9 @@
-
+{
+  "name": "ecu3",
+  "version": "1.0.0",
+  "dependencies": {
+  "ecu": [
+    "DAS",
+    "CDC"]
+  }
+}
