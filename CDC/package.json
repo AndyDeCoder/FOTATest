@@ -1,1 +1,10 @@
-
+{
+  "name": "CDC",
+  "version": "1.0.0",
+  "dependencies": {
+  "ecu": [
+    "DAS",
+    "DAS"
+  ]
+  }
+}
