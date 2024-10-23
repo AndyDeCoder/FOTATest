@@ -2,9 +2,7 @@
   "name": "AVM",
   "version": "1.0.0",
   "dependencies": {
-  "ecu": [
     "DAS":"file:../DAS",
     "CDC":"file:..CDC"
-  ]
   }
 }
