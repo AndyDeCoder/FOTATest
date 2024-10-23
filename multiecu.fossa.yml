@@ -6,6 +6,3 @@ modules:
   - name: ecu2
     path: ./ecu2
     monitor: true
-  - name: ecu3
-    path: ./ecu3
-    monitor: true
