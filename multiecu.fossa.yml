@@ -2,3 +2,9 @@ version: 1
   path:
     - ecu1
     - ecu2
+custom_fields:
+  missing_dependencies:
+    - name: "missing-package-1"
+      reason: "Not found in the registry"
+    - name: "missing-package-2"
+      reason: "Version specified does not exist"
