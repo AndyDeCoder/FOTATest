@@ -1,1 +1,11 @@
-
+version: 1
+modules:
+  - name: AVM
+    path: ./AVM
+    monitor: true
+  - name: DAS
+    path: ./DAS
+    monitor: true
+  - name: CDC
+    path: ./CDC
+    monitor: true
