@@ -1,1 +1,31 @@
-
+{
+  "ecuName": "ECU_1",
+  "version": "1.0.0",
+  "description": "Main control unit for vehicle operations.",
+  "components": [
+    {
+      "name": "ComponentA",
+      "version": "1.2.0",
+      "license": "MIT",
+      "hash": "SHA256:componentA_hash_value_here",
+      "customAttribute": "Primary control algorithm",
+      "dependencies": [
+        {
+          "name": "LibraryX",
+          "version": "2.1.0",
+          "license": "Apache-2.0",
+          "hash": "SHA256:libraryX_hash_value_here",
+          "customAttribute": "Utility library for calculations"
+        }
+      ]
+    },
+    {
+      "name": "ComponentB",
+      "version": "3.0.0",
+      "license": "GPL-3.0",
+      "hash": "SHA256:componentB_hash_value_here",
+      "customAttribute": "Sensor data processing",
+      "dependencies": []
+    }
+  ]
+}
