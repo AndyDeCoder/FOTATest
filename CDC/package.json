@@ -1,8 +1,0 @@
-{
-  "name": "CDC",
-  "version": "1.0.0",
-  "dependencies": {
-    "AVM":"file:../AVM",
-    "DAS":"file:../DAS"
-  }
-}
