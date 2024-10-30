@@ -7,14 +7,14 @@ project:
 # Specify the source directory where your JSON files are located
 source:
   # Specify the directory containing your JSON files
-  path: ".ECU_1/ECU_1.json"
+  path: "/ECU"
 
 # Specify the files to include in the analysis
 files:
   # List of JSON files to include for SBOM generation
   include:
-    - ecu_1.json
-    - ecu_2.json
+    - ECU_1.json
+    - ECU_2.json
 
 # Optional: Specify any additional settings
 settings:
