@@ -1,0 +1,30 @@
+{
+  "ecuName": "ECU_2",
+  "version": "1.1.0",
+  "description": "Control unit for infotainment system.",
+  "components": [
+    {
+      "name": "ComponentC",
+      "version": "2.0.0",
+      "license": "MIT",
+      "hash": "SHA256:componentC_hash_value_here",
+      "customAttribute": "User interface module",
+      "dependencies": [
+        {
+          "name": "LibraryY",
+          "version": "1.5.0",
+          "license": "MIT",
+          "hash": "SHA256:libraryY_hash_value_here",
+          "customAttribute": "UI framework"
+        },
+        {
+          "name": "ComponentD",
+          "version": "1.0.0",
+          "license": "Apache-2.0",
+          "hash": "SHA256:componentD_hash_value_here",
+          "customAttribute": "Audio processing module"
+        }
+      ]
+    }
+  ]
+}
