@@ -1,24 +1,8 @@
 version: 1
-# The name of your project
-project:
-  name: "MyVehicleProject"
-  description: "A project containing multiple ECUs for vehicle control."
-
-# Specify the source directory where your JSON files are located
-source:
-  # Specify the directory containing your JSON files
-  path: "/ECU"
-
-# Specify the files to include in the analysis
-files:
-  # List of JSON files to include for SBOM generation
-  include:
-    - ECU_1.json
-    - ECU_2.json
-
-# Optional: Specify any additional settings
-settings:
-  # Enable or disable certain features
-  analyze: true
-  # Specify the output format of the SBOM (if applicable)
-  outputFormat: json
+modules:
+  - name: ECU_1
+    path: ./ECU_1
+    monitor: true
+  - name: ECU_2
+    path: ./ECU_2
+    monitor: true
