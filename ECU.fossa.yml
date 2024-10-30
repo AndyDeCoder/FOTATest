@@ -1,11 +1,24 @@
 version: 1
-modules:
-  - name: AVM
-    path: ./AVM
-    monitor: true
-  - name: DAS
-    path: ./DAS
-    monitor: true
-  - name: CDC
-    path: ./CDC
-    monitor: true
+# The name of your project
+project:
+  name: "MyVehicleProject"
+  description: "A project containing multiple ECUs for vehicle control."
+
+# Specify the source directory where your JSON files are located
+source:
+  # Specify the directory containing your JSON files
+  path: ".ECU_1/ECU_1.json"
+
+# Specify the files to include in the analysis
+files:
+  # List of JSON files to include for SBOM generation
+  include:
+    - ecu_1.json
+    - ecu_2.json
+
+# Optional: Specify any additional settings
+settings:
+  # Enable or disable certain features
+  analyze: true
+  # Specify the output format of the SBOM (if applicable)
+  outputFormat: json
