@@ -6,6 +6,3 @@ modules:
   - name: DAS
     path: ./DAS
     monitor: true
-  - name: CDC
-    path: ./CDC
-    monitor: true
