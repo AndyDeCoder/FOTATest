@@ -1,0 +1,50 @@
+{
+    "Version":"1.0.0",
+    "ECUId": "AVM",
+    "VehicleStep": "step2.5",
+    "Supplier": "xyz",
+    "timeStamp":"",
+    "dependancies": [],
+    "ReleaseNote":"ECU level release info",
+    "SecurityChecks":[],
+    "SofwareInventory": [
+        "Software": {
+            "DID": "f188",
+            "ReleaseNote": "DID level release note",
+            "Version": "1.0.1",
+            "LastVersion": "1.0.0"
+        },
+        "Calibration": {
+            "DID": "f19C",
+            "ReleaseNote": "DID level release note",
+            "Version": "1.0.1",
+            "LastVersion": "1.0.0"
+        },
+        "Configuration": {
+            "DID": "f1A2",
+            "ReleaseNote": "DID level release note",
+            "Version": "1.0.1",
+            "LastVersion": "1.0.0"
+        }
+    ],
+    "HardwareInventory": [
+        "Harware": {
+            "DID": "f191",
+            "ReleaseNote": "DID level release note",
+            "Version": "1.0.1",
+            "LastVersion": "1.0.0"
+        },
+        "SerialNumber": {
+            "DID": "f18C",
+            "ReleaseNote": "DID level release note",
+            "Version": "1.0.1",
+            "LastVersion": "1.0.0"
+        },
+        "PartNumber": {
+            "DID": "F1A1",
+            "ReleaseNote": "DID level release note",
+            "Version": "1.0.1",
+            "LastVersion": "1.0.0"
+        }
+    ]
+}
