@@ -1,31 +1,66 @@
 {
-  "ecuName": "ECU_1",
-  "version": "1.0.0",
-  "description": "Main control unit for vehicle operations.",
-  "components": [
-    {
-      "name": "ComponentA",
-      "version": "1.2.0",
-      "license": "MIT",
-      "hash": "SHA256:componentA_hash_value_here",
-      "customAttribute": "Primary control algorithm",
-      "dependencies": [
-        {
-          "name": "LibraryX",
-          "version": "2.1.0",
-          "license": "Apache-2.0",
-          "hash": "SHA256:libraryX_hash_value_here",
-          "customAttribute": "Utility library for calculations"
-        }
-      ]
-    },
-    {
-      "name": "ComponentB",
-      "version": "3.0.0",
-      "license": "GPL-3.0",
-      "hash": "SHA256:componentB_hash_value_here",
-      "customAttribute": "Sensor data processing",
-      "dependencies": []
-    }
-  ]
+  "sbom": {
+    "version": "1.0",
+    "components": [
+      {
+        "name": "ComponentA",
+        "version": "1.0.0",
+        "license": "MIT",
+        "url": "https://github.com/example/componentA",
+        "dependencies": [
+          {
+            "name": "DependencyA1",
+            "version": "2.0.0",
+            "license": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          },
+          {
+            "name": "DependencyA2",
+            "version": "3.1.0",
+            "license": "GPL-3.0",
+            "url": "https://opensource.org/licenses/GPL-3.0"
+          }
+        ]
+      },
+      {
+        "name": "ComponentB",
+        "version": "2.5.0",
+        "license": "BSD-3-Clause",
+        "url": "https://github.com/example/componentB",
+        "dependencies": []
+      },
+      {
+        "name": "ComponentC",
+        "version": "0.9.1",
+        "license": "MIT",
+        "url": "https://github.com/example/componentC",
+        "dependencies": [
+          {
+            "name": "DependencyC1",
+            "version": "1.2.3",
+            "license": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        ]
+      }
+    ],
+    "licenses": [
+      {
+        "name": "MIT",
+        "url": "https://opensource.org/licenses/MIT"
+      },
+      {
+        "name": "Apache-2.0",
+        "url": "https://opensource.org/licenses/Apache-2.0"
+      },
+      {
+        "name": "GPL-3.0",
+        "url": "https://opensource.org/licenses/GPL-3.0"
+      },
+      {
+        "name": "BSD-3-Clause",
+        "url": "https://opensource.org/licenses/BSD-3-Clause"
+      }
+    ]
+  }
 }
